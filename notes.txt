@@ -1,3 +1,4 @@
 02/01/2025   --> DataType
 03/01/2025 ---> conditions , oprators ,switch case
-04/01/2025  ---> looping ,typecasting , patterns , Digital Manupulation
+04/01/2025  ---> looping ,typecasting , patterns 
+05/01/2025 ----> Digital Manupulation
