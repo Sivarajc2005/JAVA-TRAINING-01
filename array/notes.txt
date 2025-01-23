@@ -1,0 +1,60 @@
+Problem 01  :Imagine you are working for an airline company that wants to optimize the travel times between cities
+The airlines has a set of cities with direct flights between them and each flight has a specific duration.
+You are tasked with finding paris of cities where the flight duration is the shortest and you need to display all 
+such pairs 
+
+You are given an array of integers representing the flight duration between cities.Each index in the arry represents
+a sepcific city and the value at
+You are given an array of integers representing the flight duration between cities.Each index in the arry represents
+a sepcific city and the value at each index corresponds to the flight time( in minutes ) between the 
+current city and another city 
+
+The array may contain duplicate flight durations, A city can have mutliple pairs with other cities that 
+share the minimum flight time 
+
+Sample input :
+
+ int[] flight times = {120,90,110,95,120,90}
+
+-----------------------------------------------------------------------------------------------------------------------
+
+You are managing the seating arragements for a conference hall that has a limited number of seats.The hall has
+different seating sections,each with a different price.The goal is to find the maximum the revenue while ensuring 
+that VIP Customers (who have a higher budget ) are seated in the most expensive sections first
+
+input :
+
+ - An array of seat prices for different sections of the hall 
+ - An array of customer budgets
+ - An integer k representing the number of VIP Customers
+
+
+Int[] seatprices = {100,200,300};  // 0,1,2 
+
+int[] customerBudgets = {150,250,350,200,180};
+
+int k =2 // VIP Customers
+
+------------------------------------------------------------------------------------------------
+
+An E-commerce platforms that tracks products prices from multiple sellers. Each seller provides a sorted list of 
+product prices. You need to merge these lists while applying discount to certain products and ensuring the list 
+is sorted correctly by the price 
+
+For products from seller 1 , apply a 10% discount 
+For products from seller 2 , apply a 5% discount 
+For products from seller 3, do not apply any discount.
+
+You must merge the lists while sorting the products by their final price(After a
+Sample input :
+
+int[][] seller 1 = {{100,1},{200,2},{300,3}};
+int[][] seller 2 ={{150,4}, {250,5},{350,6}};
+int[][] seller 3 = {{120,7},{220,8},{320,9}};
+
+Requeriements we needed :
+
+ - Merge the price lists from multiple sellers
+ - Apply the proper discount based on the seller 
+ - Sort the merged list by the final price of each product
+ 
