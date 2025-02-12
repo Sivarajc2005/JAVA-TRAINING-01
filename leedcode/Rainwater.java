@@ -1,4 +1,4 @@
-package leedcode;
+// package leedcode;
 public class Rainwater {
     public static void main(String[] args){
         String[] str = {"aba","baa","bbbc"};

@@ -1,4 +1,4 @@
-package leedcode;
+// package leedcode;
 class PivotIndexFind{
     public static void main(String[] args){
         int[] x = {2,1,-1};
